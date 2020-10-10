@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BigText</string>
+    <string name="type_something">Type Something...</string>
+    <string name="display">Display</string>
+</resources>

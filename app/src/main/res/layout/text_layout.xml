@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/messageListLayout"
+    android:layout_margin="@dimen/text_margin"
+    android:padding="@dimen/text_padding"
+    android:orientation="vertical">
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorWhite"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="53dp"
+        android:paddingStart="8dp"
+        android:textStyle="bold"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="8dp"
+        android:paddingRight="53dp"
+        android:paddingLeft="8dp" />
+
+</LinearLayout>
